@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: gray;
+}
+
+body {
+    margin: 24px auto;
+    padding: 24px;
+    border-radius: 24px;
+    width: 55%;
+    background-color: white;
+    box-shadow: 12px 12px black;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.inner-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.portrait {
+    width: 180px;
+}
+
+.background {
+    background-color: lightblue;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tech-stack {
+    background-color: lightcyan;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tech-stack>img {
+    width: 800px;
+}
+
+.projects {
+    background-color: lightgray;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
